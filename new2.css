@@ -1,0 +1,181 @@
+/* section2 */
+
+.container3 {
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr 1fr;
+    align-items: center;
+    background: #4169E2;
+    height: 250px;
+}
+
+.phase1 {
+    padding: 20px 50px 50px 50px;
+    width: 460px;
+    height: 100px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    padding: 20px;
+}
+
+.phase1 h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.good1 {
+    font-family: 'Gilroy-Regular';
+    font-size: 38px;
+    line-height: 135.5%;
+    text-align: center;
+    letter-spacing: 0.495em;
+    color: #FFFFFF
+}
+
+.good2 {
+    font-family: 'Gilroy-Regular';
+    font-size: 10px;
+    line-height: 135.5%;
+    text-align: center;
+    letter-spacing: 0.495em;
+    color: #BCCDFF
+}
+
+
+/* section3 */
+
+.dom-padding {
+    padding: 90px 200px;
+}
+
+.domination {
+    display: grid;
+    grid-template-columns: 505px 421px;
+    width: 100%;
+    align-items: center;
+    gap: 200px;
+}
+
+.domination1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    align-content: center;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 135%;
+    /* color: #4169E2; */
+}
+
+.domination1>h1 {
+    color: #4169E2;
+    width: 505;
+}
+
+.domination1>p {
+    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular';
+    font-size: 18px;
+    line-height: 135.5%;
+    /* or 24px */
+    color: #373737;
+    padding-top: 25px;
+}
+
+.ellipse {
+    width: 421px;
+    height: 186px;
+    background: #d2cece;
+    padding: 40px 40px;
+    /* border: 1px solid black; */
+}
+
+.ellipse1 {
+    width: 337px;
+    height: 40px;
+    align-items: center;
+}
+
+.ellipse1 h6 {
+    font-weight: lighter;
+}
+
+.ellipse1 ul li {
+    padding-top: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+/* divbox */
+
+.box-img {
+    width: 50px;
+    height: 75px;
+    margin-left: 60px;
+}
+
+.boxcarrier {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 10px;
+    margin-left: 90px;
+    height: 399px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.boxborder {
+    align-content: center;
+    height: 399px;
+    /* margin-left: 10px; */
+}
+
+.boxcontent {
+    height: 299px;
+    justify-content: center;
+    justify-items: center;
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid black; */
+}
+
+.boxcontent h2 {
+    padding: 10px;
+    justify-items: center;
+    width: 100px;
+}
+
+.innerbox {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 135%;
+    /* or 41px */
+    align-content: center;
+    color: #4169E2;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.boxcontent h6 {
+    font-size: 13px;
+    margin-left: 30px;
+    color: #525252;
+    /* align-items: center; */
+}
+
+.boxcontent h3 {
+    margin-left: 50px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #000000;
+    font-weight: 800;
+}

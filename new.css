@@ -1,0 +1,135 @@
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            
+            h1,
+            h2 {
+                font-weight: 400px;
+                border: 1px;
+            }
+            
+            h4 {
+                font-family: 'Gilroy-Regular';
+                font-size: 18px;
+                line-height: 135.5%;
+                /* text-align: center; */
+                letter-spacing: 0.495em;
+                color: #BCCDFF
+            }
+            
+            h6 {
+                font-size: 13px;
+            }
+            
+            body {
+                line-height: 1.6;
+                font: Poppins;
+                background-color: #EBEBEB;
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+                overflow-y: scroll;
+            }
+            
+            img {
+                width: 100%;
+                /* border: 1px; */
+            }
+            /* buttons */
+            
+            .mainbutton {
+                border-spacing: 10px;
+                border-top: 60px;
+                padding: 25px;
+                gap: 10px;
+                display: inline;
+            }
+            
+            .black {
+                width: 115px;
+                height: 44px;
+                margin-right: 20px;
+                background: #000000;
+                color: azure;
+                border: 1px;
+                /* padding: 10px; */
+            }
+            
+            .white {
+                background-color: aliceblue;
+                color: #000000;
+                width: 115px;
+                height: 44px;
+                border: 1px;
+            }
+            /* utilities */
+            
+            .logo {}
+            
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                overflow: hidden;
+                width: 100%;
+                height: 90px;
+            }
+            
+            .navbar ul {
+                display: flex;
+                list-style-type: none;
+            }
+            
+            .navbar ul li {
+                color: black;
+                margin-right: 20px;
+            }
+            
+            .app-padding {
+                padding: 0 60px 0 60px;
+            }
+            /* showroom */
+            
+            .hero-section {
+                display: flex;
+                justify-content: space-around;
+                border: 1px;
+                width: 100%;
+                height: calc(100vh - 90px);
+                align-items: center;
+            }
+            
+            .hero-section-img {
+                width: 50%;
+                height: 100%;
+            }
+            
+            .hero-section-img img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .container2 {
+                width: 30%;
+            }
+            
+            .container2 h1 {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 64px;
+                line-height: 135.5%;
+                color: #4169E2;
+            }
+            
+            .container2 p {
+                color: #373737;
+                font-size: 18px;
+            }
+            
+            .primary {
+                font-family: 'Gilroy-Regular';
+                font-size: 18px;
+            }

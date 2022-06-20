@@ -1,0 +1,110 @@
+/* control */
+
+.lastcontrol {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #4169E2;
+    width: 600px;
+    padding: 5px;
+    margin-left: 145px;
+    margin-top: 490px;
+}
+
+.lastcont {
+    display: grid;
+    grid-template-columns: 550px 400px;
+    gap: 250px;
+    grid-template-rows: 100px;
+    margin-top: 10px;
+}
+
+.lastcontleft {
+    margin-left: 145px;
+    width: 600px;
+    padding: 25px 20px;
+    border: 1px solid #b1b0b0;
+    height: 110px;
+}
+
+.lastcontleft h5 {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    color: #000000;
+    margin-left: 15px;
+}
+
+.lastcontleft h6 {
+    font-family: 'Gilroy-Regular';
+    font-size: 13px;
+    line-height: 173.5%;
+    color: #373737;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.lastcontent {
+    border: 1px solid #b1b0b0;
+    height: fit-content;
+    padding: 18px;
+    height: 320px;
+    background-color: #d2cece;
+}
+
+.lastcontent p {
+    width: 105px;
+    align-items: center;
+    margin-left: 135px;
+    padding: 20px;
+}
+
+.lastcontent h5 {
+    font-family: 'Gilroy-Bold';
+    font-size: 23px;
+    line-height: 136.5%;
+    text-align: center;
+    color: #000000;
+}
+
+.lastcontent h6 {
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 60px;
+    justify-items: center;
+    font-family: 'Gilroy-Regular';
+    color: #535353;
+}
+
+.lastcontent h6 div {
+    margin-left: 55px;
+    font-size: 13px;
+    color: #535353;
+    font-family: 'Gilroy-Regular';
+}
+
+.lastcontent button {
+    padding: 10px;
+    width: 200px;
+    justify-content: center;
+    margin-left: 78px;
+    margin-top: 20px;
+    background-color: #020202;
+    color: #FFFFFF;
+}
+
+.lastmiddle {
+    margin-left: 145px;
+    margin-bottom: 100px;
+}
+
+.borlastmid h5 {
+    margin-top: 20px;
+    border: 1px solid#b1b0b0;
+    width: 600px;
+    height: 60px;
+}
+
+.lastmiddle h5 {
+    padding: 19px 30px;
+}
